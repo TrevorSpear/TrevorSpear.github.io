@@ -30,7 +30,7 @@ function NavBar() {
 //BottomBar - The bottom of the page where it will tell who made this
 function BottomBar() {
     var BottomBar = '<div class="bottomBar" align="center">';
-        BottomBar +='By: Amedee Kirkpatrick and Trevor Spear';
+        BottomBar +='By: Trevor Spear';
         BottomBar +='</div>';
 
     document.getElementById("BottomBar").innerHTML = BottomBar;
