@@ -13,7 +13,7 @@
 
     }
 </style>
-<body>
+<body id="Clicker">
 
 <!-- Nav Bar -->
 <nav>
@@ -32,6 +32,38 @@
     “Never turn your back on fear. It should always be in front of you, like a thing that might
     have to be killed.” - Hunter S. Thompson
 </div>
+
+
+<button onclick="chBackground();" >Click Me!</button>
+
+<script>
+    var currentBackgound = 1;
+
+
+    function chBackground() {
+        if(currentBackgound === 1){
+            document.body.style.background = "url(./../Pictures/sword.jpg) no-repeat";
+
+        }else if(currentBackgound === 2){
+            document.body.style.background = "url(./../Pictures/home.jpg) no-repeat";
+            currentBackgound = 0;
+        }
+
+        document.body.style.backgroundSize = "100%";
+
+
+        currentBackgound++;
+
+
+
+    }
+
+    document.body.addEventListener('click', function(e){
+        chBackground();
+    });
+
+
+</script>
 
 <!-- Calls the function for the Bars -->
 <script src="../Universal/Nav-Bottom-Bar.js">
