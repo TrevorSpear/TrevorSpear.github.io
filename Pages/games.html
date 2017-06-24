@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mkI</title>
+    <link rel="stylesheet" type="text/css" href="./../CSS/main.css">
+    <script src="../Games/gameDisplay.js"></script>
+    <script src="../Games/rps.js"></script>
+
+</head>
+<body>
+
+<!--NavBar-->
+<nav>
+    <div id="NavBar">
+    </div>
+</nav>
+
+<br><br>
+
+
+
+<h1>Games</h1>
+
+<div class="tab">
+    <button class="tablinks" onclick="openGame(event, 'RPS')">Rock/Paper/Scissors</button>
+    <button class="tablinks" onclick="openGame(event, 'Battleship')">Battleship</button>
+    <button class="tablinks" onclick="openGame(event, 'Wumpus')">Wumpus</button>
+</div>
+
+
+
+
+<div id="RPS" class="tabcontent">
+</div>
+
+
+
+
+<div id="Battleship" class="tabcontent">
+</div>
+
+
+
+
+<div id="Wumpus" class="tabcontent">
+</div>
+
+
+
+<!-- Calls the function for the Games -->
+<script>
+    RPS_display();
+</script>
+
+
+<!-- Calls the function for the Bars -->
+<script src="./../Universal/Nav-Bottom-Bar.js">
+
+
+</script>
+
+<script>
+
+</script>
+
+<footer id="BottomBar">
+</footer>
+</body>
+</html>

@@ -1,0 +1,113 @@
+
+
+
+/* Nav Bar */
+#NavBar {
+    background: #262626;
+    color: white;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    right: 0;
+    left: 0;
+    width: 100%; /* Full width */
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background: #262626;
+}
+
+.navbar-item{
+    font-size: 20px;
+    color: white;
+    float: left;
+    text-align: center;
+    margin: 0;
+}
+
+.navbar-left{
+    /*padding: 14px 16px; /*Only for the ones without a link*/
+}
+
+.navbar-right{
+    float: right;
+}
+
+.navbar-item a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    margin: 0;
+}
+
+.navbar-right a:hover {
+    background-color: #444; /*#333333*/
+}
+
+
+
+
+
+/* Footer */
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    color: white;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+.quoteMain {
+    color: black;
+    text-align: center;
+}
+
+
+
+
+
+
+/* Tabs */
+/* ------------- */
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
